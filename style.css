@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Monoton&family=Noto+Sans+JP:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Monoton&family=Noto+Sans+JP:wght@100..900&family=Tilt+Neon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  font-family: "Monoton", cursive;
+  color: white;
+  font-weight: 200;
+}
+
+.nav-item a {
+  font-family: "Tilt Neon", cursive;
+  color: aliceblue;
+  font-size: 1em;
+  font-weight: 200;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+  letter-spacing: 3px;
+}
+
+#home {
+  position: relative;
+  background-image: linear-gradient(rgba(59, 46, 241, 0.5), rgba(0, 0, 0, 0)),
+    url("./images/background/student-space_illustrations_studying.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.landing-page {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 100px; /* Adds 100px of space on left and right */
+  width: calc(100% - 200px); /* Ensures content fits inside the viewport */
+  box-sizing: border-box; /* Ensures padding does not exceed width */
+}
+
+.home-title {
+  font-family: "Monoton", cursive;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.87);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+}
+
+.home-description {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.87);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+  text-align: justify;
+}
+
+.feat-products-heading {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 3rem;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+}
+
+.about-description {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 1rem;
+  color: black;
+  text-align: justify;
+}
+
+.contact-heading {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+}
+
+.find-heading {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 2rem;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.753);
+}
+
+footer {
+  background-color: rgb(59, 46, 241, 0.5);
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
